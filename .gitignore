@@ -1,0 +1,5 @@
+node_modules/
+.vitest-reports/
+test/generated_*.test.ts
+src/dep*.js
+src/index.js
