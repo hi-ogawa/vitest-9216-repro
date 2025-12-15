@@ -9,10 +9,10 @@ Reproduces bloated reporter data issue: https://github.com/vitest-dev/vitest/iss
 node generate-tests.js 100 1000
 
 # Run with blob reporter
-pnpm vitest run --reporter=blob
+pnpm vitest run --reporter=blob --reporter=default
 
 # Check blob size
-stat -c%s .vitest-reports/blob.json
+ls -lh .vitest-reports/blob.json
 ```
 
 ## Results (100 files, 1000 deps)
@@ -20,7 +20,8 @@ stat -c%s .vitest-reports/blob.json
 | Version | Blob Size | Bloat Factor |
 |---------|-----------|--------------|
 | v3.1.4  | 210 KB    | baseline     |
-| v4.0.15 | 16.2 MB   | **75.6x**    |
+| v4.0.15 | 15 MB     | **75.6x**    |
+| [PR-9255](https://github.com/vitest-dev/vitest/pull/9255) | 1.4 MB    | - |
 
 ## Crash Threshold
 
