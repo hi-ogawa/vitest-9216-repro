@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       vitest:
-        specifier: https://pkg.pr.new/vitest@c9e8404
-        version: https://pkg.pr.new/vitest@c9e8404
+        specifier: https://pkg.pr.new/vitest@795d2b1
+        version: https://pkg.pr.new/vitest@795d2b1
 
 packages:
 
@@ -295,12 +295,12 @@ packages:
   '@types/estree@1.0.8':
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
-  '@vitest/expect@https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@c9e8404}
+  '@vitest/expect@https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@795d2b1}
     version: 4.0.15
 
-  '@vitest/mocker@https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@c9e8404}
+  '@vitest/mocker@https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@795d2b1}
     version: 4.0.15
     peerDependencies:
       msw: ^2.4.9
@@ -311,24 +311,24 @@ packages:
       vite:
         optional: true
 
-  '@vitest/pretty-format@https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404}
+  '@vitest/pretty-format@https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1}
     version: 4.0.15
 
-  '@vitest/runner@https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@c9e8404}
+  '@vitest/runner@https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@795d2b1}
     version: 4.0.15
 
-  '@vitest/snapshot@https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@c9e8404}
+  '@vitest/snapshot@https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@795d2b1}
     version: 4.0.15
 
-  '@vitest/spy@https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404}
+  '@vitest/spy@https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1}
     version: 4.0.15
 
-  '@vitest/utils@https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404':
-    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404}
+  '@vitest/utils@https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1':
+    resolution: {tarball: https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1}
     version: 4.0.15
 
   assertion-error@2.0.1:
@@ -466,8 +466,8 @@ packages:
       yaml:
         optional: true
 
-  vitest@https://pkg.pr.new/vitest@c9e8404:
-    resolution: {tarball: https://pkg.pr.new/vitest@c9e8404}
+  vitest@https://pkg.pr.new/vitest@795d2b1:
+    resolution: {tarball: https://pkg.pr.new/vitest@795d2b1}
     version: 4.0.15
     engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
     hasBin: true
@@ -665,43 +665,43 @@ snapshots:
 
   '@types/estree@1.0.8': {}
 
-  '@vitest/expect@https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@c9e8404':
+  '@vitest/expect@https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@795d2b1':
     dependencies:
       '@standard-schema/spec': 1.0.0
       '@types/chai': 5.2.3
-      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404
-      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404
+      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1
+      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@c9e8404(vite@7.2.7)':
+  '@vitest/mocker@https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@795d2b1(vite@7.2.7)':
     dependencies:
-      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404
+      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
       vite: 7.2.7
 
-  '@vitest/pretty-format@https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404':
+  '@vitest/pretty-format@https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1':
     dependencies:
       tinyrainbow: 3.0.3
 
-  '@vitest/runner@https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@c9e8404':
+  '@vitest/runner@https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@795d2b1':
     dependencies:
-      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404
+      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1
       pathe: 2.0.3
 
-  '@vitest/snapshot@https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@c9e8404':
+  '@vitest/snapshot@https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@795d2b1':
     dependencies:
-      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404
+      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1
       magic-string: 0.30.21
       pathe: 2.0.3
 
-  '@vitest/spy@https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404': {}
+  '@vitest/spy@https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1': {}
 
-  '@vitest/utils@https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404':
+  '@vitest/utils@https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1':
     dependencies:
-      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404
+      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1
       tinyrainbow: 3.0.3
 
   assertion-error@2.0.1: {}
@@ -830,15 +830,15 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vitest@https://pkg.pr.new/vitest@c9e8404:
+  vitest@https://pkg.pr.new/vitest@795d2b1:
     dependencies:
-      '@vitest/expect': https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@c9e8404
-      '@vitest/mocker': https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@c9e8404(vite@7.2.7)
-      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@c9e8404
-      '@vitest/runner': https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@c9e8404
-      '@vitest/snapshot': https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@c9e8404
-      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@c9e8404
-      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@c9e8404
+      '@vitest/expect': https://pkg.pr.new/vitest-dev/vitest/@vitest/expect@795d2b1
+      '@vitest/mocker': https://pkg.pr.new/vitest-dev/vitest/@vitest/mocker@795d2b1(vite@7.2.7)
+      '@vitest/pretty-format': https://pkg.pr.new/vitest-dev/vitest/@vitest/pretty-format@795d2b1
+      '@vitest/runner': https://pkg.pr.new/vitest-dev/vitest/@vitest/runner@795d2b1
+      '@vitest/snapshot': https://pkg.pr.new/vitest-dev/vitest/@vitest/snapshot@795d2b1
+      '@vitest/spy': https://pkg.pr.new/vitest-dev/vitest/@vitest/spy@795d2b1
+      '@vitest/utils': https://pkg.pr.new/vitest-dev/vitest/@vitest/utils@795d2b1
       es-module-lexer: 1.7.0
       expect-type: 1.3.0
       magic-string: 0.30.21
