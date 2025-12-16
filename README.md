@@ -21,7 +21,7 @@ ls -lh .vitest-reports/blob.json
 |---------|-----------|--------------|
 | v3.1.4  | 210 KB    | baseline     |
 | v4.0.15 | 15 MB     | **75.6x**    |
-| [PR-9255](https://github.com/vitest-dev/vitest/pull/9255) | 1.4 MB    | - |
+| streaming + gzip ([PR-9255](https://github.com/vitest-dev/vitest/pull/9255)) | 1.4 MB    | - |
 
 ## Crash Threshold
 
