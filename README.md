@@ -6,7 +6,7 @@ Reproduces bloated reporter data issue: https://github.com/vitest-dev/vitest/iss
 
 ```bash
 # Generate 100 test files with 1000 shared dependencies
-node generate-tests.js 100 1000
+node generate-tests.js 1000 1000
 
 # Run with blob reporter
 pnpm vitest run --reporter=blob --reporter=default
@@ -15,13 +15,12 @@ pnpm vitest run --reporter=blob --reporter=default
 ls -lh .vitest-reports/blob.json
 ```
 
-## Results (100 files, 1000 deps)
+## Results (100 test files, 1000 deps)
 
 | Version | Blob Size | Bloat Factor |
 |---------|-----------|--------------|
 | v3.1.4  | 210 KB    | baseline     |
 | v4.0.15 | 15 MB     | **75.6x**    |
-| streaming + gzip ([PR-9255](https://github.com/vitest-dev/vitest/pull/9255)) | 1.4 MB    | - |
 
 ## Crash Threshold
 
@@ -32,16 +31,27 @@ Node.js max string length is 512 MB. The blob reporter crashes with `RangeError:
 
 See [docs.md](./docs.md) for full analysis.
 
-## includeImportDurations
+## streaming + gzip
+
+https://github.com/vitest-dev/vitest/pull/9255
+
+- 100 x 1000 -> 1.2M
+
+## includeImportDurations: false
 
 https://github.com/vitest-dev/vitest/pull/9262
 
 ```bash
 pnpm vitest run --reporter=blob --reporter=default --includeImportDurations=false
-
-# Check blob size
 ls -lh .vitest-reports/blob.json
 ```
 
 - 100 x 1000 -> 239K
 - 1000 x 1000 -> 1.5M
+
+## optimize format
+
+https://github.com/vitest-dev/vitest/pull/9265
+
+- 100 x 1000 -> 2.2M
+- 1000 x 1000 -> 23M
