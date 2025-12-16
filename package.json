@@ -8,7 +8,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "vitest": "https://pkg.pr.new/vitest@e677e76"
+    "vitest": "https://pkg.pr.new/vitest@795d2b1"
   },
   "stackblitz": {
     "startCommand": "npm run test"
