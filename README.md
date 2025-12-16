@@ -31,3 +31,17 @@ Node.js max string length is 512 MB. The blob reporter crashes with `RangeError:
 - 10,000 files × 500 deps (estimated)
 
 See [docs.md](./docs.md) for full analysis.
+
+## includeImportDurations
+
+https://github.com/vitest-dev/vitest/pull/9262
+
+```bash
+pnpm vitest run --reporter=blob --reporter=default --includeImportDurations=false
+
+# Check blob size
+ls -lh .vitest-reports/blob.json
+```
+
+- 100 x 1000 -> 239K
+- 1000 x 1000 -> 1.5M
